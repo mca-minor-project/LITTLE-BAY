@@ -1,0 +1,842 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="main.css">
+    <!-- swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <!-- *******  Owl Carousel Links  ******* -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+    <!--=============== BOXICONS ===============-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+
+    <header>
+        <a href="index.html" class="logo"><img class="img" src="images/Little Bay.png"></a>
+
+        <nav class="navbar">
+            <a class="active" href="index.html">Home</a>
+            <a href="#categories">Categories</a>
+            <a href="products.html">Shop</a>
+            <a href="#contact">Contact Us</a>
+            <a href="#about">About Us</a>
+
+        </nav>
+
+        <div class="icons">
+            <i class='bx bx-menu' id="menu-bars"></i>
+            <i class='bx bx-search-alt-2' id="search-icon"></i>
+            <a href="login.php" class="bx bxs-user"></a>
+
+            <a href="cart.html" class="bx bxs-cart-alt"></a>
+
+        </div>
+    </header>
+
+    <section class="home" id="home">
+
+        <div class="swiper mySwiper home-slider">
+            <div class="swiper-wrapper wrapper">
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>Beats Solo</span>
+                        <h3>Wireless Headphone</h3>
+                        <p>There are many variations passages of lorem suffered alteration</p>
+                        <a href="#" class="btn">Shop By Category</a>
+                    </div>
+                    <div class="image">
+                        <img class="img" src="images/banner.png">
+                    </div>
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>20% OFF</span>
+                        <h3>Pick Your Galaxy</h3>
+                        <p>There are many variations passages of lorem suffered alteration</p>
+                        <a href="#" class="btn">Shop By Category</a>
+                    </div>
+                    <div class="image">
+                        <img class="img" src="images/banner 1.png">
+                    </div>
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>40% OFF</span>
+                        <h3>Turn it up</h3>
+                        <p>There are many variations passages of lorem suffered alteration</p>
+                        <a href="#" class="btn">Shop By Category</a>
+                    </div>
+                    <div class="image">
+                        <img class="img" src="images/banner 2.png">
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+
+    <!-- Categories ---------------------- -->
+    <section class="categories container section">
+        <h3 class="section_title"><span>Popular</span>Categories</h3>
+
+        <div class="categories__container swiper">
+            <div class="swiper-wrapper">
+                <a href="shop.html" class="categories__item swiper-slide"><img class="img" src="images/category/phone.png" alt=""
+                        class="categories__img">
+                    <h3 class="category__title">Apple Store</h3>
+                </a>
+                <a href="shop.html" class="categories__item swiper-slide"><img class="img" src="images/category/smart watch.png"
+                        alt="" class="categories__img">
+                    <h3 class="category__title">Smart watch</h3>
+                </a>
+                <a href="shop.html" class="categories__item swiper-slide"><img class="img" src="images/category/smart devices.png"
+                        alt="" class="categories__img">
+                    <h3 class="category__title">Smart Devices</h3>
+                </a>
+                <a href="shop.html" class="categories__item swiper-slide"><img class="img"
+                        src="images/category/Computer Accessories.png" alt="" class="categories__img">
+                    <h3 class="category__title">Computer Accessories</h3>
+                </a>
+                <a href="shop.html" class="categories__item swiper-slide"><img class="img" src="images/category/headphone.png"
+                        alt="" class="categories__img">
+                    <h3 class="category__title">Headphones</h3>
+                </a>
+                <a href="shop.html" class="categories__item swiper-slide"><img class="img" src="images/category/camara.png" alt=""
+                        class="categories__img">
+                    <h3 class="category__title">Cameras</h3>
+                </a>
+                <a href="shop.html" class="categories__item swiper-slide"><img class="img" src="images/category/spekers.png" alt=""
+                        class="categories__img">
+                    <h3 class="category__title">Speakers</h3>
+                </a>
+                <a href="shop.html" class="categories__item swiper-slide"><img class="img" src="images/category/power bank.png"
+                        alt="" class="categories__img">
+                    <h3 class="category__title">Power Banks</h3>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- product  ========================= -->
+    <div class="products">
+        <div class="container">
+            <h3 class="section_title"><span>Special</span> with offers</h3>
+            <div class="product-items">
+                <!-- ---single product -->
+                <div class="product">
+                    <div class="product-content">
+                        <div class="product-img">
+                            <a href="products-details.html"><img class="img" src="images/offer/phones.png" alt="product image"></a>
+                        </div>
+                        <div class="product-btns">
+                            <button type="button" class="btn-cart">add to cart <span>
+                                    <i class='bx bx-plus'></i>
+                                </span></button>
+                            <button type="button" class="btn-buy">add to cart <span>
+                                    <i class='bx bx-cart'></i>
+                                </span></button>
+                        </div>
+                    </div>
+
+                    <div class="product-info">
+                        <div class="product-info-top">
+                            <h2 class="sm-title">Apple Store</h2>
+                            <div class="rating">
+                                <span>
+                                    <i class="bx bxs-star"></i>
+                                </span>
+                                <span>
+                                    <i class="bx bxs-star"></i>
+                                </span>
+                                <span>
+                                    <i class="bx bxs-star"></i>
+                                </span>
+                                <span>
+                                    <i class="bx bxs-star"></i>
+                                </span>
+                                <span>
+                                    <i class="bx bx-star"></i>
+                                </span>
+                            </div>
+                        </div>
+
+                        <a href="#" class="product-name">Mobile</a>
+                        <p class="product-price">$ 150.00</p>
+                        <p class="product-price">$ 150.00</p>
+                    </div>
+                    <div class="off-info">
+                        <h2 class="sm-title">25% off</h2>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="product-content">
+                        <div class="product-img">
+                            <a href="products-details.html"><img class="img" src="images/offer/cameras.png" alt="product image"></a>
+                        </div>
+                        <div class="product-btns">
+                            <button type="button" class="btn-cart">add to cart <span>
+                                    <i class='bx bx-plus'></i>
+                                </span></button>
+                            <button type="button" class="btn-buy">add to cart <span>
+                                    <i class='bx bx-cart'></i>
+                                </span></button>
+                        </div>
+                    </div>
+
+                    <div class="product-info">
+                        <div class="product-info-top">
+                            <h2 class="sm-title">lifestyle</h2>
+                            <div class="rating">
+                                <span>
+                                    <i class="bx bxs-star"></i>
+                                </span>
+                                <span>
+                                    <i class="bx bxs-star"></i>
+                                </span>
+                                <span>
+                                    <i class="bx bxs-star"></i>
+                                </span>
+                                <span>
+                                    <i class="bx bxs-star"></i>
+                                </span>
+                                <span>
+                                    <i class="bx bx-star"></i>
+                                </span>
+                            </div>
+                        </div>
+
+                        <a href="#" class="product-name">Cameras</a>
+                        <p class="product-price">$ 150.00</p>
+                        <p class="product-price">$ 150.00</p>
+                    </div>
+                    <div class="off-info">
+                        <h2 class="sm-title">25% off</h2>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="product-content">
+                        <div class="product-img">
+                            <a href="products-details.html"><img class="img" src="images/offer/spekers.png" alt="product image"></a>
+                        </div>
+                        <div class="product-btns">
+                            <button type="button" class="btn-cart">add to cart <span>
+                                    <i class='bx bx-plus'></i>
+                                </span></button>
+                            <button type="button" class="btn-buy">add to cart <span>
+                                    <i class='bx bx-cart'></i>
+                                </span></button>
+                        </div>
+                    </div>
+
+                    <div class="product-info">
+                        <div class="product-info-top">
+                            <h2 class="sm-title">lifestyle</h2>
+                            <div class="rating">
+                                <span>
+                                    <i class="bx bxs-star"></i>
+                                </span>
+                                <span>
+                                    <i class="bx bxs-star"></i>
+                                </span>
+                                <span>
+                                    <i class="bx bxs-star"></i>
+                                </span>
+                                <span>
+                                    <i class="bx bxs-star"></i>
+                                </span>
+                                <span>
+                                    <i class="bx bx-star"></i>
+                                </span>
+                            </div>
+                        </div>
+
+                        <a href="#" class="product-name">Apple mobile</a>
+                        <p class="product-price">$ 150.00</p>
+                        <p class="product-price">$ 133.00</p>
+                    </div>
+                    <div class="off-info">
+                        <h2 class="sm-title">25% off</h2>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="product-content">
+                        <div class="product-img">
+                            <a href="products-details.html"><img class="img" src="images/offer/cameras1.png"
+                                    alt="product image"></a>
+                        </div>
+                        <div class="product-btns">
+                            <button type="button" class="btn-cart">add to cart <span>
+                                    <i class='bx bx-plus'></i>
+                                </span></button>
+                            <button type="button" class="btn-buy">add to cart <span>
+                                    <i class='bx bx-cart'></i>
+                                </span></button>
+                        </div>
+                    </div>
+
+                    <div class="product-info">
+                        <div class="product-info-top">
+                            <h2 class="sm-title">lifestyle</h2>
+                            <div class="rating">
+                                <span>
+                                    <i class="bx bxs-star"></i>
+                                </span>
+                                <span>
+                                    <i class="bx bxs-star"></i>
+                                </span>
+                                <span>
+                                    <i class="bx bxs-star"></i>
+                                </span>
+                                <span>
+                                    <i class="bx bxs-star"></i>
+                                </span>
+                                <span>
+                                    <i class="bx bx-star"></i>
+                                </span>
+                            </div>
+                        </div>
+
+                        <a href="#" class="product-name">Apple mobile</a>
+                        <p class="product-price">$ 150.00</p>
+                        <p class="product-price">$ 150.00</p>
+                    </div>
+                    <div class="off-info">
+                        <h2 class="sm-title">25% off</h2>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="product-content">
+                        <div class="product-img">
+                            <a href="products-details.html"><img class="img" src="images/offer/phones.png" alt="product image"></a>
+                        </div>
+                        <div class="product-btns">
+                            <button type="button" class="btn-cart">add to cart <span>
+                                    <i class='bx bx-plus'></i>
+                                </span></button>
+                            <button type="button" class="btn-buy">add to cart <span>
+                                    <i class='bx bx-cart'></i>
+                                </span></button>
+                        </div>
+                    </div>
+
+                    <div class="product-info">
+                        <div class="product-info-top">
+                            <h2 class="sm-title">lifestyle</h2>
+                            <div class="rating">
+                                <span>
+                                    <i class="bx bxs-star"></i>
+                                </span>
+                                <span>
+                                    <i class="bx bxs-star"></i>
+                                </span>
+                                <span>
+                                    <i class="bx bxs-star"></i>
+                                </span>
+                                <span>
+                                    <i class="bx bxs-star"></i>
+                                </span>
+                                <span>
+                                    <i class="bx bx-star"></i>
+                                </span>
+                            </div>
+                        </div>
+
+                        <a href="#" class="product-name">Apple mobile</a>
+                        <p class="product-price">$ 150.00</p>
+                        <p class="product-price">$ 150.00</p>
+                    </div>
+                    <div class="off-info">
+                        <h2 class="sm-title">25% off</h2>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="product-content">
+                        <div class="product-img">
+                            <a href="products-details.html"><img class="img" src="images/offer/phones.png" alt="product image"></a>
+                        </div>
+                        <div class="product-btns">
+                            <button type="button" class="btn-cart">add to cart <span>
+                                    <i class='bx bx-plus'></i>
+                                </span></button>
+                            <button type="button" class="btn-buy">add to cart <span>
+                                    <i class='bx bx-cart'></i>
+                                </span></button>
+                        </div>
+                    </div>
+
+                    <div class="product-info">
+                        <div class="product-info-top">
+                            <h2 class="sm-title">lifestyle</h2>
+                            <div class="rating">
+                                <span>
+                                    <i class="bx bxs-star"></i>
+                                </span>
+                                <span>
+                                    <i class="bx bxs-star"></i>
+                                </span>
+                                <span>
+                                    <i class="bx bxs-star"></i>
+                                </span>
+                                <span>
+                                    <i class="bx bxs-star"></i>
+                                </span>
+                                <span>
+                                    <i class="bx bx-star"></i>
+                                </span>
+                            </div>
+                        </div>
+
+                        <a href="#" class="product-name">Apple mobile</a>
+                        <p class="product-price">$ 150.00</p>
+                        <p class="product-price">$ 150.00</p>
+                    </div>
+                    <div class="off-info">
+                        <h2 class="sm-title">25% off</h2>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="product-content">
+                        <div class="product-img">
+                            <a href="products-details.html"><img class="img" src="images/offer/phones.png" alt="product image"></a>
+                        </div>
+                        <div class="product-btns">
+                            <button type="button" class="btn-cart">add to cart <span>
+                                    <i class='bx bx-plus'></i>
+                                </span></button>
+                            <button type="button" class="btn-buy">add to cart <span>
+                                    <i class='bx bx-cart'></i>
+                                </span></button>
+                        </div>
+                    </div>
+
+                    <div class="product-info">
+                        <div class="product-info-top">
+                            <h2 class="sm-title">lifestyle</h2>
+                            <div class="rating">
+                                <span>
+                                    <i class="bx bxs-star"></i>
+                                </span>
+                                <span>
+                                    <i class="bx bxs-star"></i>
+                                </span>
+                                <span>
+                                    <i class="bx bxs-star"></i>
+                                </span>
+                                <span>
+                                    <i class="bx bxs-star"></i>
+                                </span>
+                                <span>
+                                    <i class="bx bx-star"></i>
+                                </span>
+                            </div>
+                        </div>
+
+                        <a href="#" class="product-name">Apple mobile</a>
+                        <p class="product-price">$ 150.00</p>
+                        <p class="product-price">$ 150.00</p>
+                    </div>
+                    <div class="off-info">
+                        <h2 class="sm-title">25% off</h2>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="product-content">
+                        <div class="product-img">
+                            <a href="products-details.html"><img class="img" src="images/offer/phones.png" alt="product image"></a>
+                        </div>
+                        <div class="product-btns">
+                            <button type="button" class="btn-cart">add to cart <span>
+                                    <i class='bx bx-plus'></i>
+                                </span></button>
+                            <button type="button" class="btn-buy">add to cart <span>
+                                    <i class='bx bx-cart'></i>
+                                </span></button>
+                        </div>
+                    </div>
+
+                    <div class="product-info">
+                        <div class="product-info-top">
+                            <h2 class="sm-title">lifestyle</h2>
+                            <div class="rating">
+                                <span>
+                                    <i class="bx bxs-star"></i>
+                                </span>
+                                <span>
+                                    <i class="bx bxs-star"></i>
+                                </span>
+                                <span>
+                                    <i class="bx bxs-star"></i>
+                                </span>
+                                <span>
+                                    <i class="bx bxs-star"></i>
+                                </span>
+                                <span>
+                                    <i class="bx bx-star"></i>
+                                </span>
+                            </div>
+                        </div>
+
+                        <a href="#" class="product-name">Apple mobile</a>
+                        <p class="product-price">$ 150.00</p>
+                        <p class="product-price">$ 150.00</p>
+                    </div>
+                    <div class="off-info">
+                        <h2 class="sm-title">25% off</h2>
+                    </div>
+                </div>
+
+
+
+
+            </div>
+        </div>
+    </div>
+
+    <div class="product-collection">
+        <div class="container">
+            <h3 class="section__title"><span>Best</span> Sellers</h3>
+
+            <div class="product-collection-wrapper">
+                <div class="product-col-left flex">
+                    <div class="product-col-content">
+                        <h2 class="sm-title">Samsung</h2>
+                        <h2 class="md-title">Galaxy S23 ultra,ultra Evolved</h2>
+                        <p class="text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim laboriosam
+                            nesciunt consectetur.</p>
+                        <button type="button" class="btn">Shop Now</button>
+                    </div>
+
+                </div>
+                <div class="product-col-right">
+                    <div class="product-col-r-top flex">
+                        <div class="product-col-content">
+                            <h2 class="sm-title">Apple Iphone</h2>
+                            <h2 class="md-title">14 pro meet dynamic island</h2>
+                            <p class="text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
+                                laboriosam nesciunt consectetur.</p>
+                            <button type="button" class="btn">Shop Now</button>
+                        </div>
+
+                    </div>
+                    <div class="product-col-r-top flex">
+                        <div class="product-col-content">
+                            <h2 class="sm-title">Apple Iphone</h2>
+                            <h2 class="md-title">14 pro meet dynamic island</h2>
+                            <p class="text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
+                                laboriosam nesciunt consectetur.</p>
+                            <button type="button" class="btn">Shop Now</button>
+                        </div>
+
+                    </div>
+
+                    <!-- <div class="flex">
+                        <div class="product-col-content">
+                            <h2 class="sm-title">Skullcandy Riff Wireless 2</h2>
+                            <h2 class="md-title">Bold sound unplugged</h2>
+                            <p class="text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
+                                laboriosam nesciunt consectetur.</p>
+                            <button type="button" class="btn">Shop Now</button>
+                        </div>
+
+                    </div> -->
+                </div>
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- logo -->
+<!-- <div class="logos">
+    <div class="logos-slide">
+        <img class="img" src="images/logos/apple.webp" >
+        <img class="img" src="images/logos/google.webp" >
+        <img class="img" src="images/logos/bose.webp" >
+        <img class="img" src="images/logos/Fitbit.webp" >
+        <img class="img" src="images/logos/JBL.webp" >
+        <img class="img" src="images/logos/Marshall.webp" >
+        <img class="img" src="images/logos/xiaomi.webp" >
+        <img class="img" src="images/logos/Sony.webp" >
+        <img class="img" src="images/logos/samsung.webp" >
+
+    </div>
+</div> -->
+<!-- logo -->
+<div class="LogoSlider">
+    <div class="logos" style="--t:20s">
+    
+        <div>
+            <img src="images/logos/apple.webp" >
+            <img src="images/logos/google.webp" >
+            <img src="images/logos/bose.webp" >
+            <img src="images/logos/Fitbit.webp" >
+            <img src="images/logos/JBL.webp" >
+            <img src="images/logos/Marshall.webp" >
+            <img src="images/logos/xiaomi.webp" >
+            <img src="images/logos/Sony.webp" >
+            <img src="images/logos/samsung.webp" >
+        </div>
+    
+        <div>
+            <img src="images/logos/apple.webp" >
+            <img src="images/logos/google.webp" >
+            <img src="images/logos/bose.webp" >
+            <img src="images/logos/Fitbit.webp" >
+            <img src="images/logos/JBL.webp" >
+            <img src="images/logos/Marshall.webp" >
+            <img src="images/logos/xiaomi.webp" >
+            <img src="images/logos/Sony.webp" >
+            <img src="images/logos/samsung.webp" >
+        </div>
+    
+    </div>
+    </div>
+<!--News letter subsciption================= -->
+
+<div class="main_wrapper">
+    <div class="subscribe_wrapper">
+        <h2>Newsletter Subsciption</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi debitis ipsum libero tempore id molestiae ea cum exercitationem repellat distinctio atque reiciendis sit praesentium dolorem, dolor in dicta totam sequi quo consectetur.</p>
+        <form action="">
+            <div class="inner">
+                <input type="email" placeholder="Enter email">
+            </div>
+            <button type="submit">Subscibe</button>
+        </form>
+    </div>
+</div>
+
+<!-- ===================Testimonials -->
+
+<section id="testimonials">
+
+    <h3 class="section__title">
+        <span>Loved</span>by Customers
+    </h3>
+    <div class="testimonial-box-container">
+
+        <div class="testimonial-box">
+            <div class="box-top">
+                <div class="profile">
+                    <div class="profile-img">
+                        <img class="img" src="images/james.jpg" >
+                    </div>
+                    <div class="name-user">
+                        <strong>james</strong>
+                        <span>@jamesbond</span>
+                    </div>
+
+                </div>
+                <div class="review">
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                </div>
+            </div>
+            <div class="client-comment">
+                <p>My fav. site .</p>
+            </div>
+        </div>
+
+
+
+
+
+        <div class="testimonial-box">
+            <div class="box-top">
+                <div class="profile">
+                    <div class="profile-img">
+                        <img class="img" src="images/molly.jpg" >
+                    </div>
+                    <div class="name-user">
+                        <strong>Mooly</strong>
+                        <span>@moodymolly</span>
+                    </div>
+
+                </div>
+                <div class="review">
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                </div>
+            </div>
+            <div class="client-comment">
+                <p>Genuin products . i really loved them</p>
+            </div>
+        </div>
+
+        <div class="testimonial-box">
+            <div class="box-top">
+                <div class="profile">
+                    <div class="profile-img">
+                        <img class="img" src="images/kendra.jpg" >
+                    </div>
+                    <div class="name-user">
+                        <strong>Kendra</strong>
+                        <span>@hollkdendra</span>
+                    </div>
+
+                </div>
+                <div class="review">
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                </div>
+            </div>
+            <div class="client-comment">
+                <p>best website in the world.</p>
+            </div>
+        </div>
+
+
+        <div class="testimonial-box">
+            <div class="box-top">
+                <div class="profile">
+                    <div class="profile-img">
+                        <img class="img" src="images/vinod.png" >
+                    </div>
+                    <div class="name-user">
+                        <strong>vinod</strong>
+                        <span>@vinodjangid</span>
+                    </div>
+
+                </div>
+                <div class="review">
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                </div>
+            </div>
+            <div class="client-comment">
+                <p>i am the backend developer of this site. and i love this site</p>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</section>
+
+<!-- ------------footer--------- -->
+
+<footer class="footer-distributed">
+
+    <div class="footer-left">
+<img class="img" src="images/Little Bay.png" alt="">
+
+<p class="footer-links">
+    <a href="index.html">Home</a>
+    <a href="#categories">Categories</a>
+    <a href="products.html">Shop</a>
+    <a href="#">Comtact Us</a>
+</p>
+
+<p class="footer-company-name">Copyright @ 2023 <strong>Little Bay Studio</strong> All rights reserved</p>
+
+    </div>
+<div class="footer-center">
+    <div>
+        <i class='bx bxs-map'></i>
+        <p><span>Saltlake Sector V</span> KOLKATA</p>
+    </div>
+
+    <div>
+        <i class='bx bxs-phone'></i>
+        <p>+546422154</p>
+    </div>
+
+    <div>
+        <i class='bx bx-envelope'></i>
+        <p><a href="mailto:Littlebay@gmail.com">souviksikder764@gmail.com</a></p>
+    </div>
+</div>
+
+<div class="footer-right">
+    <p class="footer-company-about">
+        <span>About the Company</span>
+        <strong>Little Bay Studio</strong> is a Ecommerce website. where you can buy electronic items...
+    </p>
+
+    <div class="footer-icons">
+        <a href="#"><i class='bx bxl-facebook'></i></a>
+        <a href="#"><i class='bx bxl-instagram'></i></a>
+        <a href="#"><i class='bx bxl-linkedin'></i></a>
+        <a href="#"><i class='bx bxl-twitter'></i></a>
+        <a href="#"><i class='bx bxl-youtube'></i></a>
+    </div>
+</div>
+
+
+</footer>
+
+
+
+
+
+
+    <!--   *****  ---------------- Script----------------------  *****   -->
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+
+    <!--   *****   JQuery Link   *****   -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+
+    <!--   *****   Owl Carousel js Link  *****  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
